@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.qrcode{
+    height: 5px;
+    width: 5px;
+}
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+    padding-bottom: 50%;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%!important;
+    position:absolute;   
+}
+.direitos{
+    margin: 5px;
+}
+

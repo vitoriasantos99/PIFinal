@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.bg-green{
+    background-color: lightblue!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+        
+
+        
+        .card{
+            padding: 2% 7%;
+            color: #646771;
+            background-color: #16151a;
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul >li{
+            padding: 4px;
+        }
+        
+        ul > li:hover{
+            color:#957bda;
+            cursor: pointer;
+        }
+        
+        hr{
+            border-width: 3px;
+        }
+        
+        .social > i{
+            padding: 1%;
+            font-size: 15px;
+        }
+        
+        .social > i:hover{
+            color:#957bda;
+            cursor:pointer;
+        }
+        
+        .policy > div{
+            padding: 4px;
+        }
+        
+        .heading{
+            font-family: 'Titillium Web', sans-serif;
+            color: white;
+        }
+        
+        .divider{
+            border-top: 2px solid rgba(189, 196, 203, 0.5);;
+        }
+
+        .map-responsive{
+            overflow:hidden;
+            position:relative;
+            padding-bottom: 50%;
+            height:0;
+        }
+        .map-responsive iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%!important;
+            position:absolute;
+            
+        }
+        .container-fluid{
+            margin: 0!important;
+            padding: 0!important;
+        }
+        .como-chegar{
+            text-align: center;
+            color: black;
+        }
+        .doar{
+            text-align: center;
+        }
+        .direitos{
+            margin: 5px;
+        }
+        .frase{
+            text-align: center;
+        }
